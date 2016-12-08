@@ -100,7 +100,7 @@ main ul {
 }
 
 .candies figure {
-  
+
 }
 
 h2, h3, h4 {
@@ -196,7 +196,7 @@ h5 {
   width: 25%;
 }
 
-.review {
+div {
   border-width: 2px;
   border-radius: 8px;
   border-style: solid;
@@ -207,8 +207,26 @@ h5 {
   margin-bottom: 1rem;
 }
 
+h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Emilys Candy", cursive;
+  margin: 0;
+}
+
 .review blockquote {
   padding-left: 1.5rem;
   margin-top: 0;
   width: 80%;
+}
+
+footer {
+  background-color: #ccc;
+  font-size: .7rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+}
+
+footer p {
+  margin-left: .5rem;
 }
