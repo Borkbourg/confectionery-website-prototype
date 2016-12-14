@@ -172,7 +172,6 @@ h5 {
   padding-left: .5rem;
   padding-right: .5rem;
   text-align: center;
-  font-weight
 }
 
 .reviewee {
@@ -278,21 +277,16 @@ footer p {
 
 }
 
-@@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 130%;
     line-height: 1.5;
   }
 
-  .beau {
-    position: relative;
-  }
-
   .about figcaption {
-    position: absolute;
-    top: 90rem;
-    right: 2rem;
+    top: 60rem;
+    right: 1.7rem;
   }
 
 }
@@ -302,6 +296,11 @@ footer p {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .about figcaption {
+    top: 80rem;
+    right: 2rem;
   }
 
 }
