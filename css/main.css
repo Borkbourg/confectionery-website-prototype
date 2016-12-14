@@ -277,3 +277,31 @@ footer p {
   }
 
 }
+
+@@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  .beau {
+    position: relative;
+  }
+
+  .about figcaption {
+    position: absolute;
+    top: 90rem;
+    right: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+}
